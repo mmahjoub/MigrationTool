@@ -3,7 +3,7 @@ Project MigrationTool
 
 Migrating existing workloads between clouds is a necessity for a large number of use cases, especially for user moving from traditional virtualization technologies like VMware vSphere to OpenStack Cloud. Furthermore, cloud to cloud migrations, like AWS to Azure are also a common requirement.
 
-VM Migration to Openstack addresses exactly those requirements, in particular migrating Linux (Ubuntu, Red Hat / CentOS, SUSE, Debian, Fedora) and Windows virtual machine, templates, storage and networking configurations.
+VM Migration to Openstack addresses exactly those requirements, in particular migrating Linux (Ubuntu) and Windows virtual machine, templates, storage and networking configurations.
 
 There are some tricky scenarios where MigrationTool excels: to begin with, virtual machines need to be moved between different hypervisors, which means including new operating system drivers and tools, for example cloudbase-init in the OpenStack use case.
 
